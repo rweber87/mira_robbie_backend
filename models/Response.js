@@ -22,6 +22,10 @@ const ResponseSchema = new Schema({
   response: {
     type: String,
     required: true
+  },
+  writtenResponse: {
+    type: String,
+    required: false
   }
 });
 

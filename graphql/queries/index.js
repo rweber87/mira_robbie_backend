@@ -12,6 +12,6 @@ export default `
     responses: [Response]
   }
   type Mutation {
-    addResponse(first_name: String!, last_name: String!, address: String!, email: String!, response: String! ): Response
+    addResponse(address: String!, email: String!, first_name: String!, last_name: String!, response: String!, writtenResponse: String ): Response
   }
 `;
