@@ -1,7 +1,5 @@
 export default `
   type Response {
-    address: String!
-    email: String!
     first_name: String!
     last_name: String!
     response: String!
@@ -13,6 +11,6 @@ export default `
   }
 
   type Mutation {
-    addResponse(address: String!, email: String!, first_name: String!, last_name: String!, response: String!, writtenResponse: String ): Response
+    addResponse(first_name: String!, last_name: String!, response: String!, writtenResponse: String ): Response
   }
 `;
