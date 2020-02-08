@@ -4,7 +4,8 @@
   "description": "Robbie and Mira wedding backend with MERN ",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon --exec babel-node index.js"
+    "server": "nodemon --exec babel-node index.js",
+    "start": "npm run server"
   },
   "author": "Robbie Weber",
   "license": "MIT",
