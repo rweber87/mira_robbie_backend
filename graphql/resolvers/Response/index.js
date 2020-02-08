@@ -4,9 +4,10 @@ export default {
   Mutation: {
     addResponse: (
       root,
-      { first_name, last_name, response, writtenResponse }
+      { email, first_name, last_name, response, writtenResponse }
     ) => {
       const newResponse = new Response({
+        email,
         first_name,
         last_name,
         response,
